@@ -29,7 +29,7 @@ export class ProjectAddPage implements OnInit {
         }).catch(error => {
             this.session.showAlert(error);
         });
-    }
+    } 
     reset() {
         this.ngOnDestroy();
         this.project = {};
